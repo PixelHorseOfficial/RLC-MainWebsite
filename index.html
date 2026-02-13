@@ -1,27 +1,64 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/assets/rlclogo-BbfwmqaL.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Royal Leesha Conventions</title>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BPN3G57VN"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/rlclogo.png" />
 
-    gtag('config', 'G-3BPN3G57VN');
-  </script>
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <script type="module" crossorigin src="/assets/index-DBvuKf6R.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-C9aTtK7r.css">
-</head>
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
-  <div id="root"></div>
-</body>
+    <!-- Title -->
+    <title>Royal Leesha Conventions</title>
+    <meta name="description" content="Discover ultimate wedding venue options with beautiful farmhouse gardens perfect for your special day. Find stunning locations that make memories." />
 
+
+    <!-- Open Graph Meta Tags (for WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:title" content="Royal Leesha Conventions" />
+    <meta property="og:description" content="Discover ultimate wedding venue options with beautiful farmhouse gardens perfect for your special day. Find stunning locations that make memories." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.royalleesha.com/" />
+    <meta property="og:image" content="https://www.royalleesha.com/og-image.jpg" />
+
+    <!-- Google Analytics (NON-BLOCKING) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3BPN3G57VN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3BPN3G57VN');
+    </script>
+
+    <!-- Lottie Player (NON-BLOCKING) -->
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+      defer>
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EventVenue",
+        "name": "Royal Leesha Conventions",
+        "url": "https://www.royalleesha.com/",
+        "logo": "https://www.royalleesha.com/rlclogo.png",
+        "image": "https://www.royalleesha.com/og-image.jpeg",
+        "description": "Royal Leesha Conventions is a luxury wedding convention hall and event venue offering premium banquet halls for marriages and grand celebrations.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        }
+      }
+    </script>
+
+    <script type="module" crossorigin src="/assets/index-C1qxTaVr.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-7RlbmeTA.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Vite React Entry -->
+  </body>
 </html>
